@@ -1,0 +1,408 @@
+{
+  "id": "act-2",
+  "number": 2,
+  "name": {
+    "en": "Act 2"
+  },
+  "waypoints": [
+    {
+      "id": "act2-wp-vastiri-outskirts",
+      "name": {
+        "en": "Vastiri Outskirts"
+      },
+      "verified": false
+    },
+    {
+      "id": "act2-wp-the-ardura-caravan",
+      "name": {
+        "en": "The Ardura Caravan"
+      },
+      "verified": false
+    },
+    {
+      "id": "act2-wp-mawdun-quarry",
+      "name": {
+        "en": "Mawdun Quarry"
+      },
+      "verified": false
+    },
+    {
+      "id": "act2-wp-mawdun-mine",
+      "name": {
+        "en": "Mawdun Mine"
+      },
+      "verified": false
+    },
+    {
+      "id": "act2-wp-traitor-s-passage",
+      "name": {
+        "en": "Traitor's Passage"
+      },
+      "verified": false
+    },
+    {
+      "id": "act2-wp-mastodon-badlands",
+      "name": {
+        "en": "Mastodon Badlands"
+      },
+      "verified": false
+    },
+    {
+      "id": "act2-wp-keth",
+      "name": {
+        "en": "Keth"
+      },
+      "verified": false
+    },
+    {
+      "id": "act2-wp-valley-of-the-titans",
+      "name": {
+        "en": "Valley of the Titans"
+      },
+      "verified": false
+    },
+    {
+      "id": "act2-wp-the-bone-pits",
+      "name": {
+        "en": "The Bone Pits"
+      },
+      "verified": false
+    },
+    {
+      "id": "act2-wp-the-lost-city",
+      "name": {
+        "en": "The Lost City"
+      },
+      "verified": false
+    },
+    {
+      "id": "act2-wp-buried-shrines",
+      "name": {
+        "en": "Buried Shrines"
+      },
+      "verified": false
+    },
+    {
+      "id": "act2-wp-the-titan-grotto",
+      "name": {
+        "en": "The Titan Grotto"
+      },
+      "verified": false
+    },
+    {
+      "id": "act2-wp-deshar",
+      "name": {
+        "en": "Deshar"
+      },
+      "verified": false
+    },
+    {
+      "id": "act2-wp-path-of-mourning",
+      "name": {
+        "en": "Path of Mourning"
+      },
+      "verified": false
+    },
+    {
+      "id": "act2-wp-the-spires-of-deshar",
+      "name": {
+        "en": "The Spires of Deshar"
+      },
+      "verified": false
+    },
+    {
+      "id": "act2-wp-the-dreadnought",
+      "name": {
+        "en": "The Dreadnought"
+      },
+      "verified": false
+    }
+  ],
+  "quests": [
+    {
+      "id": "act2-q-earning-passage",
+      "name": {
+        "en": "Earning Passage"
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Convention Treasure"
+          }
+        },
+        {
+          "kind": "other",
+          "description": {
+            "en": "200 Gold"
+          }
+        },
+        {
+          "kind": "gem",
+          "description": {
+            "en": "Skill gem (name not given by source)"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act2-q-the-trail-of-corruption",
+      "name": {
+        "en": "The Trail of Corruption"
+      },
+      "notes": {
+        "en": "Begins in Act 1 and continues here."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Convention Treasure"
+          }
+        },
+        {
+          "kind": "item",
+          "description": {
+            "en": "Venom Draught of the Veil"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act2-q-the-city-of-seven-waters",
+      "name": {
+        "en": "The City of Seven Waters"
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Convention Treasure"
+          }
+        },
+        {
+          "kind": "other",
+          "description": {
+            "en": "400 Gold"
+          }
+        },
+        {
+          "kind": "gem",
+          "description": {
+            "en": "Support gem (name not given by source)"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act2-q-a-theft-of-ivory",
+      "name": {
+        "en": "A Theft of Ivory"
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Convention Treasure"
+          }
+        },
+        {
+          "kind": "other",
+          "description": {
+            "en": "400 Gold"
+          }
+        },
+        {
+          "kind": "gem",
+          "description": {
+            "en": "Support gem (name not given by source)"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act2-q-a-crown-of-stone",
+      "name": {
+        "en": "A Crown of Stone"
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Convention Treasure"
+          }
+        },
+        {
+          "kind": "other",
+          "description": {
+            "en": "400 Gold"
+          }
+        },
+        {
+          "kind": "gem",
+          "description": {
+            "en": "Support gem (name not given by source)"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act2-q-the-forgotten-prisoner",
+      "name": {
+        "en": "The Forgotten Prisoner"
+      },
+      "notes": {
+        "en": "No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act2-q-back-in-the-bottle",
+      "name": {
+        "en": "Back in the Bottle"
+      },
+      "notes": {
+        "en": "No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act2-q-ancient-beacons",
+      "name": {
+        "en": "Ancient Beacons"
+      },
+      "notes": {
+        "en": "No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act2-q-the-runeseeker",
+      "name": {
+        "en": "The Runeseeker"
+      },
+      "notes": {
+        "en": "No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act2-q-traditions-toll",
+      "name": {
+        "en": "Traditions Toll"
+      },
+      "notes": {
+        "en": "Optional quest. Source reward text was translated."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "The Flame Core"
+          }
+        },
+        {
+          "kind": "passive-point",
+          "description": {
+            "en": "2 Passive Skill Points"
+          }
+        },
+        {
+          "kind": "other",
+          "description": {
+            "en": "2 Passive Skill Refund Points"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act2-q-ancient-vows",
+      "name": {
+        "en": "Ancient Vows"
+      },
+      "notes": {
+        "en": "Optional quest. No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act2-q-the-well-of-souls",
+      "name": {
+        "en": "The Well of Souls"
+      },
+      "notes": {
+        "en": "Optional quest. No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act2-q-desert-omens",
+      "name": {
+        "en": "Desert Omens"
+      },
+      "notes": {
+        "en": "Optional quest. Ritual counter. No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act2-q-ash-and-bone",
+      "name": {
+        "en": "Ash and Bone"
+      },
+      "notes": {
+        "en": "Optional quest. Ritual counter. No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act2-q-ascent-to-power",
+      "name": {
+        "en": "Ascent to Power"
+      },
+      "notes": {
+        "en": "Source marks this as Important."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Test of Strength Barya"
+          }
+        },
+        {
+          "kind": "item",
+          "description": {
+            "en": "Messer"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act2-q-the-trial-of-time",
+      "name": {
+        "en": "The Trial of Time"
+      },
+      "notes": {
+        "en": "Source marks this as MasterMission. No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    }
+  ]
+}

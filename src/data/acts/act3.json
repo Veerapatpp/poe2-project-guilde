@@ -1,0 +1,272 @@
+{
+  "id": "act-3",
+  "number": 3,
+  "name": {
+    "en": "Act 3"
+  },
+  "waypoints": [
+    {
+      "id": "act3-wp-sandswept-marsh",
+      "name": {
+        "en": "Sandswept Marsh"
+      },
+      "verified": false
+    },
+    {
+      "id": "act3-wp-ziggurat-encampment",
+      "name": {
+        "en": "Ziggurat Encampment"
+      },
+      "verified": false
+    },
+    {
+      "id": "act3-wp-jungle-ruins",
+      "name": {
+        "en": "Jungle Ruins"
+      },
+      "verified": false
+    },
+    {
+      "id": "act3-wp-infested-barrens",
+      "name": {
+        "en": "Infested Barrens"
+      },
+      "verified": false
+    },
+    {
+      "id": "act3-wp-the-azak-bog",
+      "name": {
+        "en": "The Azak Bog"
+      },
+      "verified": false
+    },
+    {
+      "id": "act3-wp-chimeral-wetlands",
+      "name": {
+        "en": "Chimeral Wetlands"
+      },
+      "verified": false
+    },
+    {
+      "id": "act3-wp-jiquani-s-machinarium",
+      "name": {
+        "en": "Jiquani's Machinarium"
+      },
+      "verified": false
+    },
+    {
+      "id": "act3-wp-jiquani-s-sanctum",
+      "name": {
+        "en": "Jiquani's Sanctum"
+      },
+      "verified": false
+    },
+    {
+      "id": "act3-wp-the-drowned-city",
+      "name": {
+        "en": "The Drowned City"
+      },
+      "verified": false
+    },
+    {
+      "id": "act3-wp-the-molten-vault",
+      "name": {
+        "en": "The Molten Vault"
+      },
+      "verified": false
+    },
+    {
+      "id": "act3-wp-apex-of-filth",
+      "name": {
+        "en": "Apex of Filth"
+      },
+      "verified": false
+    },
+    {
+      "id": "act3-wp-utzaal-past",
+      "name": {
+        "en": "Utzaal (Past)"
+      },
+      "verified": false
+    },
+    {
+      "id": "act3-wp-aggorat-past",
+      "name": {
+        "en": "Aggorat (Past)"
+      },
+      "verified": false
+    },
+    {
+      "id": "act3-wp-the-black-chambers-past",
+      "name": {
+        "en": "The Black Chambers (Past)"
+      },
+      "verified": false
+    },
+    {
+      "id": "act3-wp-mystic-refuge",
+      "name": {
+        "en": "Mystic Refuge"
+      },
+      "verified": false
+    },
+    {
+      "id": "act3-wp-temple-of-chaos",
+      "name": {
+        "en": "Temple of Chaos"
+      },
+      "verified": false
+    }
+  ],
+  "quests": [
+    {
+      "id": "act3-q-legacy-of-the-vaal",
+      "name": {
+        "en": "Legacy of the Vaal"
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Waystone (Tier 1)"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act3-q-the-slithering-dead",
+      "name": {
+        "en": "The Slithering Dead"
+      },
+      "notes": {
+        "en": "Optional quest."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Venom Draught of Stone"
+          }
+        },
+        {
+          "kind": "other",
+          "description": {
+            "en": "Artificer's Orb"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act3-q-treasures-of-utzaal",
+      "name": {
+        "en": "Treasures of Utzaal"
+      },
+      "notes": {
+        "en": "Optional quest. Source says Level 11 in one place and Level 10 in another."
+      },
+      "rewards": [
+        {
+          "kind": "other",
+          "description": {
+            "en": "1000 Gold"
+          }
+        },
+        {
+          "kind": "gem",
+          "description": {
+            "en": "Uncut Skill Gem (Level 11)"
+          }
+        },
+        {
+          "kind": "other",
+          "description": {
+            "en": "Artificer's Orb"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act3-q-tribal-vengeance",
+      "name": {
+        "en": "Tribal Vengeance"
+      },
+      "notes": {
+        "en": "Optional quest."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Thawing Charm"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act3-q-the-trials-of-chaos",
+      "name": {
+        "en": "The Trials of Chaos"
+      },
+      "notes": {
+        "en": "Source marks this as Important."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Chimeral Inscribed Ultimatum"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act3-q-ancient-beacons",
+      "name": {
+        "en": "Ancient Beacons"
+      },
+      "notes": {
+        "en": "No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act3-q-the-runeseeker",
+      "name": {
+        "en": "The Runeseeker"
+      },
+      "notes": {
+        "en": "No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act3-q-savage-wilds",
+      "name": {
+        "en": "Savage Wilds"
+      },
+      "notes": {
+        "en": "Optional quest. Source text incomplete. No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act3-q-blood-offerings",
+      "name": {
+        "en": "Blood Offerings"
+      },
+      "notes": {
+        "en": "Optional quest. Source text incomplete. No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    }
+  ]
+}

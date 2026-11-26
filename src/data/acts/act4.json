@@ -1,0 +1,522 @@
+{
+  "id": "act-4",
+  "number": 4,
+  "name": {
+    "en": "Act 4"
+  },
+  "waypoints": [
+    {
+      "id": "act4-wp-kingsmarch",
+      "name": {
+        "en": "Kingsmarch"
+      },
+      "verified": false
+    },
+    {
+      "id": "act4-wp-isle-of-kin",
+      "name": {
+        "en": "Isle of Kin"
+      },
+      "verified": false
+    },
+    {
+      "id": "act4-wp-volcanic-warrens",
+      "name": {
+        "en": "Volcanic Warrens"
+      },
+      "verified": false
+    },
+    {
+      "id": "act4-wp-kedge-bay",
+      "name": {
+        "en": "Kedge Bay"
+      },
+      "verified": false
+    },
+    {
+      "id": "act4-wp-journey-s-end",
+      "name": {
+        "en": "Journey's End"
+      },
+      "verified": false
+    },
+    {
+      "id": "act4-wp-abandoned-prison",
+      "name": {
+        "en": "Abandoned Prison"
+      },
+      "verified": false
+    },
+    {
+      "id": "act4-wp-solitary-confinement",
+      "name": {
+        "en": "Solitary Confinement"
+      },
+      "verified": false
+    },
+    {
+      "id": "act4-wp-eye-of-hinekora",
+      "name": {
+        "en": "Eye of Hinekora"
+      },
+      "verified": false
+    },
+    {
+      "id": "act4-wp-halls-of-the-dead",
+      "name": {
+        "en": "Halls of the Dead"
+      },
+      "verified": false
+    },
+    {
+      "id": "act4-wp-trial-of-the-ancestors",
+      "name": {
+        "en": "Trial of the Ancestors"
+      },
+      "verified": false
+    },
+    {
+      "id": "act4-wp-whakapanu-island",
+      "name": {
+        "en": "Whakapanu Island"
+      },
+      "verified": false
+    },
+    {
+      "id": "act4-wp-singing-caverns",
+      "name": {
+        "en": "Singing Caverns"
+      },
+      "verified": false
+    },
+    {
+      "id": "act4-wp-shrike-island",
+      "name": {
+        "en": "Shrike Island"
+      },
+      "verified": false
+    },
+    {
+      "id": "act4-wp-arastas",
+      "name": {
+        "en": "Arastas"
+      },
+      "verified": false
+    },
+    {
+      "id": "act4-wp-the-excavation",
+      "name": {
+        "en": "The Excavation"
+      },
+      "verified": false
+    },
+    {
+      "id": "act4-wp-ngakanu",
+      "name": {
+        "en": "Ngakanu"
+      },
+      "verified": false
+    },
+    {
+      "id": "act4-wp-heart-of-the-tribe",
+      "name": {
+        "en": "Heart of the Tribe"
+      },
+      "verified": false
+    },
+    {
+      "id": "act4-wp-plunder-s-point",
+      "name": {
+        "en": "Plunder's Point"
+      },
+      "verified": false
+    }
+  ],
+  "quests": [
+    {
+      "id": "act4-q-the-search",
+      "name": {
+        "en": "The Search"
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Boat Charter"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act4-q-the-blind-beast",
+      "name": {
+        "en": "The Blind Beast"
+      },
+      "notes": {
+        "en": "Optional quest."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Sulphite Potion"
+          }
+        },
+        {
+          "kind": "gem",
+          "description": {
+            "en": "Uncut Skill Gem (Level 12)"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act4-q-shrike-island",
+      "name": {
+        "en": "Shrike Island"
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Ruby Ring"
+          }
+        },
+        {
+          "kind": "gem",
+          "description": {
+            "en": "Uncut Skill Gem (Level 12)"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act4-q-land-of-the-kin",
+      "name": {
+        "en": "Land of the Kin"
+      },
+      "notes": {
+        "en": "No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act4-q-utopia",
+      "name": {
+        "en": "Utopia"
+      },
+      "notes": {
+        "en": "No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act4-q-whakapanu-island",
+      "name": {
+        "en": "Whakapanu Island"
+      },
+      "notes": {
+        "en": "Optional quest."
+      },
+      "rewards": [
+        {
+          "kind": "gem",
+          "description": {
+            "en": "Uncut Skill Gem (Level 12)"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act4-q-abandoned-prison",
+      "name": {
+        "en": "Abandoned Prison"
+      },
+      "notes": {
+        "en": "Optional quest."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Amber Amulet"
+          }
+        },
+        {
+          "kind": "gem",
+          "description": {
+            "en": "Uncut Skill Gem (Level 12)"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act4-q-the-prisoner",
+      "name": {
+        "en": "The Prisoner"
+      },
+      "notes": {
+        "en": "Source marks this as MasterMission. No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act4-q-tribal-medicine",
+      "name": {
+        "en": "Tribal Medicine"
+      },
+      "notes": {
+        "en": "Optional quest."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Kaom's Lesson"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act4-q-dark-mists",
+      "name": {
+        "en": "Dark Mists"
+      },
+      "notes": {
+        "en": "Source lists two entries; rewards merged."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Verisium Spikes"
+          }
+        },
+        {
+          "kind": "item",
+          "description": {
+            "en": "Mist-shrouded Tome"
+          }
+        },
+        {
+          "kind": "other",
+          "description": {
+            "en": "7500 Gold"
+          }
+        },
+        {
+          "kind": "gem",
+          "description": {
+            "en": "Uncut Skill Gem (Level 13)"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act4-q-the-runeseeker",
+      "name": {
+        "en": "The Runeseeker"
+      },
+      "notes": {
+        "en": "Optional quest."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Verisium x300"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act4-q-trial-of-the-ancestors",
+      "name": {
+        "en": "Trial of the Ancestors"
+      },
+      "notes": {
+        "en": "Optional quest."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Tattoo of Hinekora"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act4-q-greater-blank-runes",
+      "name": {
+        "en": "Greater Blank Runes"
+      },
+      "notes": {
+        "en": "Optional quest."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Greater Desert Rune"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act4-q-tawhoa-s-test",
+      "name": {
+        "en": "Tawhoa's Test"
+      },
+      "notes": {
+        "en": "Optional quest."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Dexterity Tattoo of Tawhoa"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act4-q-tasalio-s-test",
+      "name": {
+        "en": "Tasalio's Test"
+      },
+      "notes": {
+        "en": "Optional quest."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Intelligence Tattoo of Tasalio"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act4-q-ngamahu-s-test",
+      "name": {
+        "en": "Ngamahu's Test"
+      },
+      "notes": {
+        "en": "Optional quest."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Strength Tattoo of Ngamahu"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act4-q-siren-pearl",
+      "name": {
+        "en": "Siren Pearl"
+      },
+      "notes": {
+        "en": "Optional quest."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Pearlescent Amulet"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act4-q-siege-of-oriath",
+      "name": {
+        "en": "Siege of Oriath"
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Book of Specialisation"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act4-q-hostile-takeover",
+      "name": {
+        "en": "Hostile Takeover"
+      },
+      "notes": {
+        "en": "Optional quest. No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act4-q-follow-tavakai",
+      "name": {
+        "en": "Follow Tavakai"
+      },
+      "notes": {
+        "en": "Source marks this as MasterMission. No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act4-q-fate-of-the-vaal",
+      "name": {
+        "en": "Fate of the Vaal"
+      },
+      "notes": {
+        "en": "No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act4-q-blood-in-the-water",
+      "name": {
+        "en": "Blood in the Water"
+      },
+      "notes": {
+        "en": "Optional quest. Source text incomplete. No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act4-q-tidal-omens",
+      "name": {
+        "en": "Tidal Omens"
+      },
+      "notes": {
+        "en": "Optional quest. Source text incomplete. No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    }
+  ]
+}

@@ -1,46 +1,375 @@
 {
   "id": "act-1",
   "number": 1,
-  "name": { "en": "Act 1 (sample data)", "th": "Act 1 (ข้อมูลตัวอย่าง)" },
+  "name": {
+    "en": "Act 1"
+  },
   "waypoints": [
     {
-      "id": "act1-wp-sample-a",
-      "name": { "en": "[Sample] Waypoint A", "th": "[ตัวอย่าง] Waypoint A" },
+      "id": "act1-wp-clearfell-encampment",
+      "name": {
+        "en": "Clearfell Encampment"
+      },
       "verified": false
     },
     {
-      "id": "act1-wp-sample-b",
-      "name": { "en": "[Sample] Waypoint B", "th": "[ตัวอย่าง] Waypoint B" },
+      "id": "act1-wp-clearfell",
+      "name": {
+        "en": "Clearfell"
+      },
+      "verified": false
+    },
+    {
+      "id": "act1-wp-the-grelwood",
+      "name": {
+        "en": "The Grelwood"
+      },
+      "verified": false
+    },
+    {
+      "id": "act1-wp-the-red-vale",
+      "name": {
+        "en": "The Red Vale"
+      },
+      "verified": false
+    },
+    {
+      "id": "act1-wp-the-grim-tangle",
+      "name": {
+        "en": "The Grim Tangle"
+      },
+      "verified": false
+    },
+    {
+      "id": "act1-wp-cemetery-of-the-eternals",
+      "name": {
+        "en": "Cemetery of the Eternals"
+      },
+      "verified": false
+    },
+    {
+      "id": "act1-wp-tomb-of-the-consort",
+      "name": {
+        "en": "Tomb of the Consort"
+      },
+      "verified": false
+    },
+    {
+      "id": "act1-wp-mausoleum-of-the-praetor",
+      "name": {
+        "en": "Mausoleum of the Praetor"
+      },
+      "verified": false
+    },
+    {
+      "id": "act1-wp-hunting-grounds",
+      "name": {
+        "en": "Hunting Grounds"
+      },
+      "verified": false
+    },
+    {
+      "id": "act1-wp-freythorn",
+      "name": {
+        "en": "Freythorn"
+      },
+      "verified": false
+    },
+    {
+      "id": "act1-wp-ogham-farmlands",
+      "name": {
+        "en": "Ogham Farmlands"
+      },
+      "verified": false
+    },
+    {
+      "id": "act1-wp-ogham-village",
+      "name": {
+        "en": "Ogham Village"
+      },
+      "verified": false
+    },
+    {
+      "id": "act1-wp-the-manor-ramparts",
+      "name": {
+        "en": "The Manor Ramparts"
+      },
+      "verified": false
+    },
+    {
+      "id": "act1-wp-ogham-manor",
+      "name": {
+        "en": "Ogham Manor"
+      },
       "verified": false
     }
   ],
   "quests": [
     {
-      "id": "act1-q-sample-a",
-      "name": { "en": "[Sample] Quest A", "th": "[ตัวอย่าง] Quest A" },
-      "notes": {
-        "en": "Placeholder. Replace with real data from your own playthrough.",
-        "th": "ข้อมูลตัวอย่าง ให้แทนที่ด้วยข้อมูลจริงจากที่เล่นเอง"
+      "id": "act1-q-reaching-clearfell",
+      "name": {
+        "en": "Reaching Clearfell"
       },
       "rewards": [
         {
-          "kind": "passive-point",
-          "description": { "en": "[Sample] passive point reward", "th": "[ตัวอย่าง] รางวัล passive point" }
+          "kind": "gem",
+          "description": {
+            "en": "Uncut Skill Gem (Level 1)"
+          }
         }
       ],
-      "waypointId": "act1-wp-sample-a",
       "verified": false
     },
     {
-      "id": "act1-q-sample-b",
-      "name": { "en": "[Sample] Quest B", "th": "[ตัวอย่าง] Quest B" },
+      "id": "act1-q-treacherous-ground",
+      "name": {
+        "en": "Treacherous Ground"
+      },
+      "notes": {
+        "en": "Optional quest."
+      },
       "rewards": [
         {
-          "kind": "resistance",
-          "description": { "en": "[Sample] resistance reward", "th": "[ตัวอย่าง] รางวัล resistance" }
+          "kind": "other",
+          "description": {
+            "en": "100 Gold"
+          }
+        },
+        {
+          "kind": "gem",
+          "description": {
+            "en": "Uncut Support Gem"
+          }
         }
       ],
-      "waypointId": "act1-wp-sample-b",
+      "verified": false
+    },
+    {
+      "id": "act1-q-secrets-in-the-dark",
+      "name": {
+        "en": "Secrets in the Dark"
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Runed Spikes"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act1-q-the-mysterious-shade",
+      "name": {
+        "en": "The Mysterious Shade"
+      },
+      "notes": {
+        "en": "No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act1-q-finding-the-forge",
+      "name": {
+        "en": "Finding the Forge"
+      },
+      "notes": {
+        "en": "Optional quest. Unlocks the Salvage Bench (per source). Reward not named by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act1-q-the-lost-lute",
+      "name": {
+        "en": "The Lost Lute"
+      },
+      "notes": {
+        "en": "Optional quest."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Book of Specialisation"
+          }
+        },
+        {
+          "kind": "passive-point",
+          "description": {
+            "en": "2 Passive Skill Points"
+          }
+        },
+        {
+          "kind": "other",
+          "description": {
+            "en": "2 Passive Respec Points"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act1-q-sorrow-among-stones",
+      "name": {
+        "en": "Sorrow Among Stones"
+      },
+      "rewards": [
+        {
+          "kind": "gem",
+          "description": {
+            "en": "Uncut Support Gem"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act1-q-ominous-altars",
+      "name": {
+        "en": "Ominous Altars"
+      },
+      "notes": {
+        "en": "Optional quest. Source also shows a spirit draught icon, not named."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Ruby Charm"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act1-q-the-trail-of-corruption",
+      "name": {
+        "en": "The Trail of Corruption"
+      },
+      "rewards": [
+        {
+          "kind": "gem",
+          "description": {
+            "en": "Uncut Skill Gem (Level 5)"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act1-q-the-mad-wolf-of-ogham",
+      "name": {
+        "en": "The Mad Wolf of Ogham"
+      },
+      "rewards": [
+        {
+          "kind": "gem",
+          "description": {
+            "en": "Uncut Support Gem"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act1-q-the-hunt-begins",
+      "name": {
+        "en": "The Hunt Begins"
+      },
+      "notes": {
+        "en": "Optional quest. No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act1-q-blank-runes",
+      "name": {
+        "en": "Blank Runes"
+      },
+      "notes": {
+        "en": "Optional quest."
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Lesser Desert Rune"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act1-q-cracks-in-the-earth",
+      "name": {
+        "en": "Cracks in the Earth"
+      },
+      "rewards": [
+        {
+          "kind": "other",
+          "description": {
+            "en": "100 Gold"
+          }
+        },
+        {
+          "kind": "gem",
+          "description": {
+            "en": "Uncut Support Gem"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act1-q-ancient-beacons",
+      "name": {
+        "en": "Ancient Beacons"
+      },
+      "notes": {
+        "en": "No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act1-q-the-runeseeker",
+      "name": {
+        "en": "The Runeseeker"
+      },
+      "rewards": [
+        {
+          "kind": "item",
+          "description": {
+            "en": "Verisium x30"
+          }
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "act1-q-grim-portents",
+      "name": {
+        "en": "Grim Portents"
+      },
+      "notes": {
+        "en": "Optional quest. Source page had incomplete details; check in game. No reward listed by source."
+      },
+      "rewards": [],
+      "verified": false
+    },
+    {
+      "id": "act1-q-grave-tidings",
+      "name": {
+        "en": "Grave Tidings"
+      },
+      "notes": {
+        "en": "Optional quest. Source page had incomplete details; check in game. No reward listed by source."
+      },
+      "rewards": [],
       "verified": false
     }
   ]
