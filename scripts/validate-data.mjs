@@ -35,6 +35,10 @@ for (const file of readdirSync(ACTS_DIR).filter((name) => name.endsWith(".json")
 
   if (!isText(act.name)) errors.push(where("name.en is required"));
 
+  for (const key of ["name", "url", "license", "licenseUrl", "retrievedAt"]) {
+    if (typeof act.source?.[key] !== "string" || act.source[key] === "") errors.push(where(`source.${key} is required`));
+  }
+
   const waypointIds = new Set();
   for (const [index, waypoint] of (act.waypoints ?? []).entries()) {
     const path = `waypoints[${index}]`;

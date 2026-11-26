@@ -32,7 +32,9 @@ Campaign content lives in `src/data/acts/*.json` (types in `src/types/PoeTypes.t
 
 - Names are objects like `{ "en": "...", "th": "...", "ja": "..." }`; only `en` is required.
 - Every quest and waypoint has `verified`. Set it to `true` only for things confirmed in the actual game.
-- `src/data/acts/act1.json` currently holds placeholder sample data. Replace it with real data from your own playthrough, and write routes and notes in your own words.
+- Every act has a `source` (name, url, license, retrievedAt). The validator requires it, and the Campaign page shows it as attribution.
+- `src/data/acts/act1.json` was copied from [PoE2DB](https://poe2db.tw/us/Act_1) on 2026-11-26. It is licensed CC BY-NC-SA 3.0, so the data stays under the same license, needs attribution, and **must not be used commercially**. Everything is `verified: false` until checked in game.
+- **Before adding ads, affiliate links or donations**, replace this data with content written from your own playthrough (or get written permission), then change the `source` accordingly.
 - Register each new act file in `src/data/index.ts`.
 
 ## Roadmap
