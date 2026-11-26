@@ -1,3 +1,10 @@
+import { Timer } from "../components/Timer";
+
 export const Tools = () => {
-    return <p className="text-zinc-400">Timer and resistance tracker are coming soon.</p>;
+    return (
+        <div className="space-y-6">
+            <Timer />
+            <p className="text-zinc-400">Resistance tracker is coming soon.</p>
+        </div>
+    );
 };
