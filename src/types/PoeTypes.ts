@@ -31,10 +31,20 @@ export type Quest = {
     verified: boolean;
 };
 
+export type DataSource = {
+    name: string;
+    url: string;
+    license: string;
+    licenseUrl: string;
+    /** YYYY-MM-DD the data was copied or checked */
+    retrievedAt: string;
+};
+
 export type Act = {
     id: string;
     number: number;
     name: LocalizedText;
+    source: DataSource;
     waypoints: Waypoint[];
     quests: Quest[];
 };
