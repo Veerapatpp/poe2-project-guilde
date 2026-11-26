@@ -12,6 +12,7 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "validate:data": "node scripts/validate-data.mjs",
+    "check:release": "node scripts/validate-data.mjs --release",
     "upgrade:latest": "npx npm-check-updates -u && npm install"
   },
   "dependencies": {

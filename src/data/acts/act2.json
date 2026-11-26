@@ -10,6 +10,7 @@
       "name": {
         "en": "Vastiri Outskirts"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -17,6 +18,7 @@
       "name": {
         "en": "The Ardura Caravan"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -24,6 +26,7 @@
       "name": {
         "en": "Mawdun Quarry"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -31,6 +34,7 @@
       "name": {
         "en": "Mawdun Mine"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -38,6 +42,7 @@
       "name": {
         "en": "Traitor's Passage"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -45,6 +50,7 @@
       "name": {
         "en": "Mastodon Badlands"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -52,6 +58,7 @@
       "name": {
         "en": "Keth"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -59,6 +66,7 @@
       "name": {
         "en": "Valley of the Titans"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -66,6 +74,7 @@
       "name": {
         "en": "The Bone Pits"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -73,6 +82,7 @@
       "name": {
         "en": "The Lost City"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -80,6 +90,7 @@
       "name": {
         "en": "Buried Shrines"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -87,6 +98,7 @@
       "name": {
         "en": "The Titan Grotto"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -94,6 +106,7 @@
       "name": {
         "en": "Deshar"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -101,6 +114,7 @@
       "name": {
         "en": "Path of Mourning"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -108,6 +122,7 @@
       "name": {
         "en": "The Spires of Deshar"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -115,6 +130,7 @@
       "name": {
         "en": "The Dreadnought"
       },
+      "origin": "own",
       "verified": false
     }
   ],
@@ -144,6 +160,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -168,6 +185,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -195,6 +213,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -222,6 +241,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -249,6 +269,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -260,6 +281,7 @@
         "en": "No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -271,6 +293,7 @@
         "en": "No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -282,6 +305,7 @@
         "en": "No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -293,6 +317,7 @@
         "en": "No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -323,6 +348,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -334,6 +360,7 @@
         "en": "Optional quest. No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -345,6 +372,7 @@
         "en": "Optional quest. No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -356,6 +384,7 @@
         "en": "Optional quest. Ritual counter. No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -367,6 +396,7 @@
         "en": "Optional quest. Ritual counter. No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -391,6 +421,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -402,6 +433,7 @@
         "en": "Source marks this as MasterMission. No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     }
   ]

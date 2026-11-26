@@ -22,6 +22,7 @@ npm run dev
 | `npm run build` | Validate data, typecheck, production build |
 | `npm run typecheck` | `tsc --noEmit` |
 | `npm run validate:data` | Checks every JSON file in `src/data/acts` |
+| `npm run check:release` | Same checks, but fails while any item is still copied from a third party |
 | `npm run upgrade:latest` | Bumps every dependency to its newest release and reinstalls |
 
 Dependency ranges in `package.json` were set without running an install. Run `npm run upgrade:latest` once after the first `npm install`, then commit `package-lock.json`.
@@ -32,9 +33,9 @@ Campaign content lives in `src/data/acts/*.json` (types in `src/types/PoeTypes.t
 
 - Names are objects like `{ "en": "...", "th": "...", "ja": "..." }`; only `en` is required.
 - Every quest and waypoint has `verified`. Set it to `true` only for things confirmed in the actual game.
-- Every act has a `source` (name, url, license, retrievedAt). The validator requires it, and the Campaign page shows it as attribution.
-- `src/data/acts/act1.json` was copied from [PoE2DB](https://poe2db.tw/us/Act_1) on 2026-11-26. It is licensed CC BY-NC-SA 3.0, so the data stays under the same license, needs attribution, and **must not be used commercially**. Everything is `verified: false` until checked in game.
-- **Before adding ads, affiliate links or donations**, replace this data with content written from your own playthrough (or get written permission), then change the `source` accordingly.
+- An item can be `"own"` only when `verified: true`. Acts that still hold non-own items need a `source` (name, url, license, licenseUrl, retrievedAt), and the Campaign page shows it as attribution.
+- **Converting to our own data (do this per item as you play):** look at the game, rewrite the name, notes and rewards from what you see in your own words, then set `"origin": "own"` and `"verified": true`. Rewording the wiki text without checking the game does not make it ours. When the last item of an act is `own`, delete that act's `source`.
+- **Before adding ads, affiliate links or donations**, run `npm run check:release`. It must pass (no third-party items left), or get written permission from the source.
 - Register each new act file in `src/data/index.ts`.
 
 ## Roadmap
