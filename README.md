@@ -28,7 +28,7 @@ Dependency ranges in `package.json` were set without running an install. Run `np
 
 ## Data
 
-Campaign content lives in `src/data/acts/*.json` (types in `src/types.ts`).
+Campaign content lives in `src/data/acts/*.json` (types in `src/types/PoeTypes.ts`).
 
 - Names are objects like `{ "en": "...", "th": "...", "ja": "..." }`; only `en` is required.
 - Every quest and waypoint has `verified`. Set it to `true` only for things confirmed in the actual game.
