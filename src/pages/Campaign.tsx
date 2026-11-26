@@ -1,6 +1,16 @@
 import { ActSection } from "../components/ActSection";
 import { acts } from "../data";
 import { useCampaignStore } from "../stores/useCampaignStore";
+import type { Act } from "../types/PoeTypes";
+
+// Attribution is only needed while an act still holds items that are not our own.
+const hasThirdParty = (act: Act) => [...act.waypoints, ...act.quests].some((item) => item.origin !== "own");
+
+const sources = [
+    ...new Map(
+        acts.flatMap((act) => (hasThirdParty(act) && act.source ? [[act.source.url, act.source] as const] : [])),
+    ).values(),
+];
 
 export const Campaign = () => {
     const progress = useCampaignStore((state) => state.progress);
@@ -31,6 +41,25 @@ export const Campaign = () => {
                     onReset={reset}
                 />
             ))}
+
+            {sources.length > 0 && (
+                <p className="text-xs text-zinc-500">
+                    Quest data from{" "}
+                    {sources.map((source, index) => (
+                        <span key={source.url}>
+                            {index > 0 && ", "}
+                            <a href={source.url} className="underline" target="_blank" rel="noreferrer">
+                                {source.name}
+                            </a>{" "}
+                            (
+                            <a href={source.licenseUrl} className="underline" target="_blank" rel="noreferrer">
+                                {source.license}
+                            </a>
+                            ). Not checked in game yet; items marked unverified may be wrong.
+                        </span>
+                    ))}
+                </p>
+            )}
         </div>
     );
 };

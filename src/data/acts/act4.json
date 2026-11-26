@@ -10,6 +10,7 @@
       "name": {
         "en": "Kingsmarch"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -17,6 +18,7 @@
       "name": {
         "en": "Isle of Kin"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -24,6 +26,7 @@
       "name": {
         "en": "Volcanic Warrens"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -31,6 +34,7 @@
       "name": {
         "en": "Kedge Bay"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -38,6 +42,7 @@
       "name": {
         "en": "Journey's End"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -45,6 +50,7 @@
       "name": {
         "en": "Abandoned Prison"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -52,6 +58,7 @@
       "name": {
         "en": "Solitary Confinement"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -59,6 +66,7 @@
       "name": {
         "en": "Eye of Hinekora"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -66,6 +74,7 @@
       "name": {
         "en": "Halls of the Dead"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -73,6 +82,7 @@
       "name": {
         "en": "Trial of the Ancestors"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -80,6 +90,7 @@
       "name": {
         "en": "Whakapanu Island"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -87,6 +98,7 @@
       "name": {
         "en": "Singing Caverns"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -94,6 +106,7 @@
       "name": {
         "en": "Shrike Island"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -101,6 +114,7 @@
       "name": {
         "en": "Arastas"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -108,6 +122,7 @@
       "name": {
         "en": "The Excavation"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -115,6 +130,7 @@
       "name": {
         "en": "Ngakanu"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -122,6 +138,7 @@
       "name": {
         "en": "Heart of the Tribe"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -129,6 +146,7 @@
       "name": {
         "en": "Plunder's Point"
       },
+      "origin": "own",
       "verified": false
     }
   ],
@@ -146,6 +164,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -170,6 +189,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -191,6 +211,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -202,6 +223,7 @@
         "en": "No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -213,6 +235,7 @@
         "en": "No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -231,6 +254,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -255,6 +279,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -266,6 +291,7 @@
         "en": "Source marks this as MasterMission. No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -284,6 +310,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -320,6 +347,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -338,6 +366,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -356,6 +385,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -374,6 +404,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -392,6 +423,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -410,6 +442,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -428,6 +461,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -446,6 +480,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -461,6 +496,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -472,6 +508,7 @@
         "en": "Optional quest. No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -483,6 +520,7 @@
         "en": "Source marks this as MasterMission. No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -494,6 +532,7 @@
         "en": "No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -505,6 +544,7 @@
         "en": "Optional quest. Source text incomplete. No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -516,6 +556,7 @@
         "en": "Optional quest. Source text incomplete. No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     }
   ]

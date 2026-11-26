@@ -10,6 +10,7 @@
       "name": {
         "en": "Sandswept Marsh"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -17,6 +18,7 @@
       "name": {
         "en": "Ziggurat Encampment"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -24,6 +26,7 @@
       "name": {
         "en": "Jungle Ruins"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -31,6 +34,7 @@
       "name": {
         "en": "Infested Barrens"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -38,6 +42,7 @@
       "name": {
         "en": "The Azak Bog"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -45,6 +50,7 @@
       "name": {
         "en": "Chimeral Wetlands"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -52,6 +58,7 @@
       "name": {
         "en": "Jiquani's Machinarium"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -59,6 +66,7 @@
       "name": {
         "en": "Jiquani's Sanctum"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -66,6 +74,7 @@
       "name": {
         "en": "The Drowned City"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -73,6 +82,7 @@
       "name": {
         "en": "The Molten Vault"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -80,6 +90,7 @@
       "name": {
         "en": "Apex of Filth"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -87,6 +98,7 @@
       "name": {
         "en": "Utzaal (Past)"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -94,6 +106,7 @@
       "name": {
         "en": "Aggorat (Past)"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -101,6 +114,7 @@
       "name": {
         "en": "The Black Chambers (Past)"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -108,6 +122,7 @@
       "name": {
         "en": "Mystic Refuge"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -115,6 +130,7 @@
       "name": {
         "en": "Temple of Chaos"
       },
+      "origin": "own",
       "verified": false
     }
   ],
@@ -132,6 +148,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -156,6 +173,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -186,6 +204,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -204,6 +223,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -222,6 +242,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -233,6 +254,7 @@
         "en": "No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -244,6 +266,7 @@
         "en": "No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -255,6 +278,7 @@
         "en": "Optional quest. Source text incomplete. No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -266,6 +290,7 @@
         "en": "Optional quest. Source text incomplete. No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     }
   ]

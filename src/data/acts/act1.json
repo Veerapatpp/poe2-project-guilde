@@ -10,6 +10,7 @@
       "name": {
         "en": "Clearfell Encampment"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -17,6 +18,7 @@
       "name": {
         "en": "Clearfell"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -24,6 +26,7 @@
       "name": {
         "en": "The Grelwood"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -31,6 +34,7 @@
       "name": {
         "en": "The Red Vale"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -38,6 +42,7 @@
       "name": {
         "en": "The Grim Tangle"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -45,6 +50,7 @@
       "name": {
         "en": "Cemetery of the Eternals"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -52,6 +58,7 @@
       "name": {
         "en": "Tomb of the Consort"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -59,6 +66,7 @@
       "name": {
         "en": "Mausoleum of the Praetor"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -66,6 +74,7 @@
       "name": {
         "en": "Hunting Grounds"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -73,6 +82,7 @@
       "name": {
         "en": "Freythorn"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -80,6 +90,7 @@
       "name": {
         "en": "Ogham Farmlands"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -87,6 +98,7 @@
       "name": {
         "en": "Ogham Village"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -94,6 +106,7 @@
       "name": {
         "en": "The Manor Ramparts"
       },
+      "origin": "own",
       "verified": false
     },
     {
@@ -101,6 +114,7 @@
       "name": {
         "en": "Ogham Manor"
       },
+      "origin": "own",
       "verified": false
     }
   ],
@@ -118,6 +132,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -142,6 +157,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -157,6 +173,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -168,6 +185,7 @@
         "en": "No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -179,6 +197,7 @@
         "en": "Optional quest. Unlocks the Salvage Bench (per source). Reward not named by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -209,6 +228,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -224,6 +244,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -242,6 +263,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -257,6 +279,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -272,6 +295,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -283,6 +307,7 @@
         "en": "Optional quest. No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -301,6 +326,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -322,6 +348,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -333,6 +360,7 @@
         "en": "No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -348,6 +376,7 @@
           }
         }
       ],
+      "origin": "own",
       "verified": false
     },
     {
@@ -359,6 +388,7 @@
         "en": "Optional quest. Source page had incomplete details; check in game. No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     },
     {
@@ -370,6 +400,7 @@
         "en": "Optional quest. Source page had incomplete details; check in game. No reward listed by source."
       },
       "rewards": [],
+      "origin": "own",
       "verified": false
     }
   ]
