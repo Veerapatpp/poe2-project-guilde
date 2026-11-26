@@ -1,0 +1,47 @@
+{
+  "id": "act-1",
+  "number": 1,
+  "name": { "en": "Act 1 (sample data)", "th": "Act 1 (ข้อมูลตัวอย่าง)" },
+  "waypoints": [
+    {
+      "id": "act1-wp-sample-a",
+      "name": { "en": "[Sample] Waypoint A", "th": "[ตัวอย่าง] Waypoint A" },
+      "verified": false
+    },
+    {
+      "id": "act1-wp-sample-b",
+      "name": { "en": "[Sample] Waypoint B", "th": "[ตัวอย่าง] Waypoint B" },
+      "verified": false
+    }
+  ],
+  "quests": [
+    {
+      "id": "act1-q-sample-a",
+      "name": { "en": "[Sample] Quest A", "th": "[ตัวอย่าง] Quest A" },
+      "notes": {
+        "en": "Placeholder. Replace with real data from your own playthrough.",
+        "th": "ข้อมูลตัวอย่าง ให้แทนที่ด้วยข้อมูลจริงจากที่เล่นเอง"
+      },
+      "rewards": [
+        {
+          "kind": "passive-point",
+          "description": { "en": "[Sample] passive point reward", "th": "[ตัวอย่าง] รางวัล passive point" }
+        }
+      ],
+      "waypointId": "act1-wp-sample-a",
+      "verified": false
+    },
+    {
+      "id": "act1-q-sample-b",
+      "name": { "en": "[Sample] Quest B", "th": "[ตัวอย่าง] Quest B" },
+      "rewards": [
+        {
+          "kind": "resistance",
+          "description": { "en": "[Sample] resistance reward", "th": "[ตัวอย่าง] รางวัล resistance" }
+        }
+      ],
+      "waypointId": "act1-wp-sample-b",
+      "verified": false
+    }
+  ]
+}
