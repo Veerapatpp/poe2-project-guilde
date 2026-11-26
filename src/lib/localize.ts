@@ -1,5 +1,3 @@
-import type { Locale, LocalizedText } from "../types";
+import type { Locale, LocalizedText } from "../types/PoeTypes";
 
-export function localize(text: LocalizedText, locale: Locale = "en"): string {
-  return text[locale] ?? text.en;
-}
+export const localize = (text: LocalizedText, locale: Locale = "en") => text[locale] ?? text.en;

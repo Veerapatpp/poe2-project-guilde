@@ -4,7 +4,7 @@ import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ACTS_DIR = new URL("../src/data/acts/", import.meta.url);
-// Keep in sync with REWARD_KINDS in src/types.ts
+// Keep in sync with REWARD_KINDS in src/types/PoeTypes.ts
 const REWARD_KINDS = ["passive-point", "resistance", "gem", "item", "other"];
 
 const errors = [];
