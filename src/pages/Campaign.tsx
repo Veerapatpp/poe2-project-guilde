@@ -1,28 +1,35 @@
+import ActSection from "../components/ActSection";
 import { acts } from "../data";
-import { localize } from "../lib/localize";
+import { useLocalStorage } from "../lib/useLocalStorage";
+import { useProgress } from "../lib/useProgress";
+
+const isBoolean = (value: unknown): value is boolean => typeof value === "boolean";
 
 export default function Campaign() {
+  const { progress, toggle, reset } = useProgress();
+  const [hideCompleted, setHideCompleted] = useLocalStorage("poe2c:v1:hideCompleted", false, isBoolean);
+
   return (
     <div className="space-y-6">
+      <label className="flex min-h-11 items-center gap-3 text-sm text-zinc-300">
+        <input
+          type="checkbox"
+          checked={hideCompleted}
+          onChange={(event) => setHideCompleted(event.target.checked)}
+          className="size-5 accent-amber-500"
+        />
+        Hide completed
+      </label>
+
       {acts.map((act) => (
-        <section key={act.id}>
-          <h2 className="text-lg font-semibold">{localize(act.name)}</h2>
-          <ul className="mt-2 space-y-2">
-            {act.quests.map((quest) => (
-              <li key={quest.id} className="rounded-lg border border-zinc-800 p-3">
-                <div className="flex items-center justify-between gap-2">
-                  <span>{localize(quest.name)}</span>
-                  {!quest.verified && (
-                    <span className="rounded bg-amber-900/50 px-2 py-0.5 text-xs text-amber-300">
-                      unverified
-                    </span>
-                  )}
-                </div>
-                {quest.notes && <p className="mt-1 text-sm text-zinc-400">{localize(quest.notes)}</p>}
-              </li>
-            ))}
-          </ul>
-        </section>
+        <ActSection
+          key={act.id}
+          act={act}
+          progress={progress}
+          hideCompleted={hideCompleted}
+          onToggle={toggle}
+          onReset={reset}
+        />
       ))}
     </div>
   );
